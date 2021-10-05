@@ -1,0 +1,397 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation"/>
+</edmx:Reference>
+<edmx:Reference xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Uri="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='LOCAL')/$value">
+<edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/>
+</edmx:Reference>
+<edmx:DataServices m:DataServiceVersion="2.0">
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZFLOW_ODATA_SRV" xml:lang="ko" sap:schema-version="1">
+<EntityType Name="Input" sap:content-version="1">
+<Key>
+<PropertyRef Name="userId"/>
+</Key>
+<Property Name="userId" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="user id" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+<Property Name="rgsnDttm" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="date and time" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+<Property Name="roomSrno" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="chat room number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+<Property Name="roomChatSrno" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="chat number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+<Property Name="mobileYn" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="if mobile" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+<Property Name="context" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="context" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+<Property Name="text" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+<Property Name="messageCode" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="message code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+</EntityType>
+<EntityType Name="ZIFCV7000_DDLType" sap:label="BP List" sap:content-version="1">
+<Key>
+<PropertyRef Name="kunnr"/>
+</Key>
+<Property Name="kunnr" Type="Edm.String" Nullable="false" MaxLength="10" sap:display-format="UpperCase" sap:label="고객" sap:quickinfo="고객 번호"/>
+<Property Name="name1" Type="Edm.String" MaxLength="40" sap:label="이름 1" sap:quickinfo="조직의 이름 1"/>
+<Property Name="pernr" Type="Edm.String" MaxLength="8" sap:display-format="NonNegative" sap:label="사원 번호"/>
+</EntityType>
+<EntityType Name="ZIFCV7001_DDLType" sap:label="BP view" sap:content-version="1">
+<Key>
+<PropertyRef Name="partner"/>
+</Key>
+<Property Name="partner" Type="Edm.String" Nullable="false" MaxLength="10" sap:display-format="UpperCase" sap:label="비즈니스 파트너" sap:quickinfo="비즈니스 파트너 번호"/>
+<Property Name="name_org1" Type="Edm.String" MaxLength="40" sap:label="이름 1" sap:quickinfo="조직의 이름 1"/>
+<Property Name="city" Type="Edm.String" MaxLength="140"/>
+<Property Name="aufsd" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="오더 보류" sap:quickinfo="고객에 대한 중앙 오더 보류"/>
+<Property Name="aufsd_t" Type="Edm.String" MaxLength="20" sap:label="내역"/>
+<Property Name="lifsd" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="납품보류" sap:quickinfo="고객의 중앙납품보류"/>
+<Property Name="lifsd_t" Type="Edm.String" MaxLength="20" sap:label="납품 보류 내역" sap:quickinfo="내역"/>
+<Property Name="faksd" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="대금청구 보류" sap:quickinfo="고객의 중앙 대금청구 보류"/>
+<Property Name="faksd_t" Type="Edm.String" MaxLength="20" sap:label="청구 보류 내역"/>
+<Property Name="konda" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="고객 가격 그룹"/>
+<Property Name="konda_t" Type="Edm.String" MaxLength="20" sap:label="내역"/>
+<Property Name="lprio" Type="Edm.String" MaxLength="2" sap:display-format="NonNegative" sap:label="납품 우선순위"/>
+<Property Name="lprio_t" Type="Edm.String" MaxLength="20" sap:label="내역"/>
+<Property Name="vwerk" Type="Edm.String" MaxLength="4" sap:display-format="UpperCase" sap:label="납품 플랜트" sap:quickinfo="납품 플랜트(자체 또는 외부)"/>
+<Property Name="vsbed" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="출하 조건"/>
+<Property Name="vsbed_t" Type="Edm.String" MaxLength="20" sap:label="내역" sap:quickinfo="출하 조건 내역"/>
+<Property Name="inco1" Type="Edm.String" MaxLength="3" sap:display-format="UpperCase" sap:label="인코텀스" sap:quickinfo="인도 조건(파트 1)"/>
+<Property Name="zterm" Type="Edm.String" MaxLength="4" sap:display-format="UpperCase" sap:label="지급 조건" sap:quickinfo="지급 조건 키"/>
+<Property Name="zterm_t" Type="Edm.String" MaxLength="30" sap:label="내역" sap:quickinfo="지급조건내역"/>
+</EntityType>
+<EntityType Name="ZIFCV7002_DDLType" sap:label="PO List" sap:content-version="1">
+<Key>
+<PropertyRef Name="vbeln"/>
+</Key>
+<Property Name="vbeln" Type="Edm.String" Nullable="false" MaxLength="10" sap:display-format="UpperCase" sap:label="판매 문서"/>
+<Property Name="auart" Type="Edm.String" MaxLength="4" sap:display-format="UpperCase" sap:label="판매 문서 유형"/>
+<Property Name="auart_t" Type="Edm.String" MaxLength="20" sap:label="내역" sap:quickinfo="판매 문서 유형 내역"/>
+<Property Name="kunnr" Type="Edm.String" MaxLength="10" sap:display-format="UpperCase" sap:label="판매처"/>
+<Property Name="kunnr_t" Type="Edm.String" MaxLength="35" sap:label="이름" sap:quickinfo="이름 1"/>
+<Property Name="audat" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="증빙일" sap:quickinfo="증빙일(받은 일자/보낸 일자)"/>
+<Property Name="erdat" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="생성일" sap:quickinfo="레코드생성일"/>
+<Property Name="vkorg" Type="Edm.String" MaxLength="4" sap:display-format="UpperCase" sap:label="영업 조직"/>
+<Property Name="vkorg_t" Type="Edm.String" MaxLength="20" sap:label="이름"/>
+<Property Name="vtweg" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="유통 경로"/>
+<Property Name="vtweg_t" Type="Edm.String" MaxLength="20" sap:label="이름"/>
+<Property Name="pernr" Type="Edm.String" MaxLength="8" sap:display-format="NonNegative" sap:label="사원 번호"/>
+<Property Name="pernr_t" Type="Edm.String" MaxLength="80" sap:label="성명"/>
+<Property Name="netwr" Type="Edm.Decimal" Precision="16" Scale="3" sap:unit="waerk" sap:label="정가" sap:quickinfo="문서통화의 판매오더정가"/>
+<Property Name="waerk" Type="Edm.String" MaxLength="5" sap:label="전표 통화" sap:quickinfo="SD 문서 통화" sap:semantics="currency-code"/>
+<Property Name="spart" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="제품군"/>
+</EntityType>
+<EntityType Name="ZIFCV7010_DDLType" sap:label="Order List" sap:content-version="1">
+<Key>
+<PropertyRef Name="vbeln"/>
+</Key>
+<Property Name="vbeln" Type="Edm.String" Nullable="false" MaxLength="10" sap:display-format="UpperCase" sap:label="판매 문서"/>
+<Property Name="pernr" Type="Edm.String" MaxLength="8" sap:display-format="NonNegative" sap:label="사원 번호"/>
+</EntityType>
+<EntityType Name="ZIFCV7011_DDLType" sap:label="order details" sap:content-version="1">
+<Key>
+<PropertyRef Name="vbeln"/>
+</Key>
+<Property Name="vbeln" Type="Edm.String" Nullable="false" MaxLength="10" sap:display-format="UpperCase" sap:label="판매 문서"/>
+<Property Name="posnr" Type="Edm.String" MaxLength="6" sap:display-format="NonNegative" sap:label="판매 문서 품목"/>
+<Property Name="auart" Type="Edm.String" MaxLength="4" sap:display-format="UpperCase" sap:label="판매 문서 유형"/>
+<Property Name="bezei" Type="Edm.String" MaxLength="20" sap:label="내역" sap:quickinfo="판매 문서 유형 내역"/>
+<Property Name="lifsk" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="납품 보류" sap:quickinfo="납품 보류(문서 헤더)"/>
+<Property Name="abgru" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="거부 사유" sap:quickinfo="판매 문서 거부 사유"/>
+<Property Name="kunnr" Type="Edm.String" MaxLength="10" sap:display-format="UpperCase" sap:label="판매처"/>
+<Property Name="name1" Type="Edm.String" MaxLength="35" sap:label="이름" sap:quickinfo="이름 1"/>
+<Property Name="audat" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="증빙일" sap:quickinfo="증빙일(받은 일자/보낸 일자)"/>
+<Property Name="erdat" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:label="생성일" sap:quickinfo="레코드생성일"/>
+<Property Name="vtweg" Type="Edm.String" MaxLength="2" sap:display-format="UpperCase" sap:label="유통 경로"/>
+<Property Name="vtext" Type="Edm.String" MaxLength="20" sap:label="이름"/>
+<Property Name="pernr" Type="Edm.String" MaxLength="8" sap:display-format="NonNegative" sap:label="사원 번호"/>
+<Property Name="name_org1" Type="Edm.String" MaxLength="40" sap:label="이름 1" sap:quickinfo="조직의 이름 1"/>
+<Property Name="matnr" Type="Edm.String" MaxLength="40" sap:display-format="UpperCase" sap:label="자재" sap:quickinfo="자재 번호"/>
+<Property Name="maktx" Type="Edm.String" MaxLength="40" sap:label="자재내역"/>
+<Property Name="vrkme" Type="Edm.String" MaxLength="3" sap:label="판매 단위" sap:semantics="unit-of-measure"/>
+<Property Name="waerk" Type="Edm.String" MaxLength="5" sap:label="전표 통화" sap:quickinfo="SD 문서 통화" sap:semantics="currency-code"/>
+<Property Name="netpr" Type="Edm.Decimal" Precision="12" Scale="3" sap:unit="waerk" sap:label="단가"/>
+<Property Name="kwmeng" Type="Edm.Decimal" Precision="15" Scale="3" sap:unit="vrkme" sap:label="오더 수량" sap:quickinfo="누적 오더 수량(판매 단위)"/>
+<Property Name="netwr" Type="Edm.Decimal" Precision="16" Scale="3" sap:unit="waerk" sap:label="정가" sap:quickinfo="전표 통화의 오더 품목 정가"/>
+<Property Name="count1" Type="Edm.Decimal" Precision="15" Scale="3"/>
+<Property Name="amount1" Type="Edm.Decimal" Precision="26" Scale="5"/>
+<Property Name="count2" Type="Edm.Int32"/>
+<Property Name="amount2" Type="Edm.Int32"/>
+<Property Name="count3" Type="Edm.Int32"/>
+<Property Name="amount3" Type="Edm.Decimal" Precision="13" Scale="3"/>
+</EntityType>
+<EntityType Name="ZIFCV7020_DDLType" sap:label="Stock List" sap:content-version="1">
+<Key>
+<PropertyRef Name="matnr"/>
+</Key>
+<Property Name="matnr" Type="Edm.String" Nullable="false" MaxLength="40" sap:display-format="UpperCase" sap:label="자재" sap:quickinfo="자재 번호"/>
+<Property Name="matnr_t" Type="Edm.String" MaxLength="40" sap:label="자재내역"/>
+</EntityType>
+<EntityType Name="ZIFCV7021_DDLType" sap:label="stock" sap:content-version="1">
+<Key>
+<PropertyRef Name="matnr"/>
+</Key>
+<Property Name="matnr" Type="Edm.String" Nullable="false" MaxLength="40" sap:display-format="UpperCase" sap:label="자재" sap:quickinfo="자재 번호"/>
+<Property Name="werks" Type="Edm.String" MaxLength="4" sap:display-format="UpperCase" sap:label="플랜트"/>
+<Property Name="WERKS_T" Type="Edm.String" MaxLength="30" sap:label="성 1" sap:quickinfo="성"/>
+<Property Name="lgort" Type="Edm.String" MaxLength="4" sap:display-format="UpperCase" sap:label="저장 위치"/>
+<Property Name="LGORT_T" Type="Edm.String" MaxLength="16" sap:label="내역" sap:quickinfo="저장 위치 내역"/>
+<Property Name="MATNR_T" Type="Edm.String" MaxLength="40" sap:label="자재내역"/>
+<Property Name="meins" Type="Edm.String" MaxLength="3" sap:label="기본 단위" sap:semantics="unit-of-measure"/>
+<Property Name="labst" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="meins" sap:label="가용" sap:quickinfo="평가된 가용 재고"/>
+<Property Name="LABST_CHAR" Type="Edm.String" MaxLength="40" sap:display-format="UpperCase" sap:label="자재" sap:quickinfo="자재 번호"/>
+<Property Name="VMENG" Type="Edm.Decimal" Precision="15" Scale="3"/>
+<Property Name="VMENG_CHAR" Type="Edm.String" MaxLength="40" sap:display-format="UpperCase" sap:label="자재" sap:quickinfo="자재 번호"/>
+<Property Name="A_LABST" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="meins" sap:label="가용" sap:quickinfo="평가된 가용 재고"/>
+<Property Name="A_LABST_CHAR" Type="Edm.String" MaxLength="40" sap:display-format="UpperCase" sap:label="자재" sap:quickinfo="자재 번호"/>
+</EntityType>
+<EntityType Name="ZIFCV7022_DDLType" sap:label="material info" sap:content-version="1">
+<Key>
+<PropertyRef Name="matnr"/>
+</Key>
+<Property Name="matnr" Type="Edm.String" Nullable="false" MaxLength="40" sap:display-format="UpperCase" sap:label="자재" sap:quickinfo="자재 번호"/>
+<Property Name="maktx" Type="Edm.String" MaxLength="40" sap:label="자재내역"/>
+<Property Name="vpsta" Type="Edm.String" MaxLength="15" sap:display-format="UpperCase" sap:label="완료유지보수상태" sap:quickinfo="전체 자재의 유지보수 상태"/>
+<Property Name="pstat" Type="Edm.String" MaxLength="15" sap:display-format="UpperCase" sap:label="유지보수 상태"/>
+<Property Name="mtart" Type="Edm.String" MaxLength="4" sap:display-format="UpperCase" sap:label="자재 유형"/>
+<Property Name="mbrsh" Type="Edm.String" MaxLength="1" sap:display-format="UpperCase" sap:label="산업 부문"/>
+<Property Name="matkl" Type="Edm.String" MaxLength="9" sap:display-format="UpperCase" sap:label="자재 그룹"/>
+<Property Name="meins" Type="Edm.String" MaxLength="3" sap:label="기본 단위" sap:semantics="unit-of-measure"/>
+<Property Name="brgew" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="gewei" sap:label="총 중량"/>
+<Property Name="ntgew" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="gewei" sap:label="순 중량"/>
+<Property Name="gewei" Type="Edm.String" MaxLength="3" sap:label="중량 단위" sap:semantics="unit-of-measure"/>
+</EntityType>
+<EntityContainer Name="ZFLOW_ODATA_SRV_Entities" m:IsDefaultEntityContainer="true" sap:message-scope-supported="true" sap:supported-formats="atom json xlsx">
+<EntitySet Name="InputSet" EntityType="ZFLOW_ODATA_SRV.Input" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+<EntitySet Name="ZIFCV7000_DDL" EntityType="ZFLOW_ODATA_SRV.ZIFCV7000_DDLType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+<EntitySet Name="ZIFCV7001_DDL" EntityType="ZFLOW_ODATA_SRV.ZIFCV7001_DDLType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+<EntitySet Name="ZIFCV7002_DDL" EntityType="ZFLOW_ODATA_SRV.ZIFCV7002_DDLType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+<EntitySet Name="ZIFCV7010_DDL" EntityType="ZFLOW_ODATA_SRV.ZIFCV7010_DDLType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+<EntitySet Name="ZIFCV7011_DDL" EntityType="ZFLOW_ODATA_SRV.ZIFCV7011_DDLType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+<EntitySet Name="ZIFCV7020_DDL" EntityType="ZFLOW_ODATA_SRV.ZIFCV7020_DDLType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+<EntitySet Name="ZIFCV7021_DDL" EntityType="ZFLOW_ODATA_SRV.ZIFCV7021_DDLType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+<EntitySet Name="ZIFCV7022_DDL" EntityType="ZFLOW_ODATA_SRV.ZIFCV7022_DDLType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+</EntityContainer>
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="ZIFCV7000_DDL_CDS.ZIFCV7000_DDL_CDS_Entities">
+<Annotation Term="Aggregation.ApplySupported">
+<Record>
+<PropertyValue Property="Transformations">
+<Collection>
+<String>aggregate</String>
+<String>groupby</String>
+<String>filter</String>
+</Collection>
+</PropertyValue>
+<PropertyValue Property="Rollup" EnumMember="None"/>
+</Record>
+</Annotation>
+</Annotations>
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="ZIFCV7001_DDL_CDS.ZIFCV7001_DDL_CDS_Entities">
+<Annotation Term="Aggregation.ApplySupported">
+<Record>
+<PropertyValue Property="Transformations">
+<Collection>
+<String>aggregate</String>
+<String>groupby</String>
+<String>filter</String>
+</Collection>
+</PropertyValue>
+<PropertyValue Property="Rollup" EnumMember="None"/>
+</Record>
+</Annotation>
+</Annotations>
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="ZIFCV7002_DDL_CDS.ZIFCV7002_DDL_CDS_Entities">
+<Annotation Term="Aggregation.ApplySupported">
+<Record>
+<PropertyValue Property="Transformations">
+<Collection>
+<String>aggregate</String>
+<String>groupby</String>
+<String>filter</String>
+</Collection>
+</PropertyValue>
+<PropertyValue Property="Rollup" EnumMember="None"/>
+</Record>
+</Annotation>
+</Annotations>
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="ZIFCV7010_DDL_CDS.ZIFCV7010_DDL_CDS_Entities">
+<Annotation Term="Aggregation.ApplySupported">
+<Record>
+<PropertyValue Property="Transformations">
+<Collection>
+<String>aggregate</String>
+<String>groupby</String>
+<String>filter</String>
+</Collection>
+</PropertyValue>
+<PropertyValue Property="Rollup" EnumMember="None"/>
+</Record>
+</Annotation>
+</Annotations>
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="ZIFCV7011_DDL_CDS.ZIFCV7011_DDL_CDS_Entities">
+<Annotation Term="Aggregation.ApplySupported">
+<Record>
+<PropertyValue Property="Transformations">
+<Collection>
+<String>aggregate</String>
+<String>groupby</String>
+<String>filter</String>
+</Collection>
+</PropertyValue>
+<PropertyValue Property="Rollup" EnumMember="None"/>
+</Record>
+</Annotation>
+</Annotations>
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="ZIFCV7020_DDL_CDS.ZIFCV7020_DDL_CDS_Entities">
+<Annotation Term="Aggregation.ApplySupported">
+<Record>
+<PropertyValue Property="Transformations">
+<Collection>
+<String>aggregate</String>
+<String>groupby</String>
+<String>filter</String>
+</Collection>
+</PropertyValue>
+<PropertyValue Property="Rollup" EnumMember="None"/>
+</Record>
+</Annotation>
+</Annotations>
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="ZIFCV7021_DDL_CDS.ZIFCV7021_DDL_CDS_Entities">
+<Annotation Term="Aggregation.ApplySupported">
+<Record>
+<PropertyValue Property="Transformations">
+<Collection>
+<String>aggregate</String>
+<String>groupby</String>
+<String>filter</String>
+</Collection>
+</PropertyValue>
+<PropertyValue Property="Rollup" EnumMember="None"/>
+</Record>
+</Annotation>
+</Annotations>
+<Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="ZIFCV7022_DDL_CDS.ZIFCV7022_DDL_CDS_Entities">
+<Annotation Term="Aggregation.ApplySupported">
+<Record>
+<PropertyValue Property="Transformations">
+<Collection>
+<String>aggregate</String>
+<String>groupby</String>
+<String>filter</String>
+</Collection>
+</PropertyValue>
+<PropertyValue Property="Rollup" EnumMember="None"/>
+</Record>
+</Annotation>
+</Annotations>
+<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/SAP/ZFLOW_ODATA_SRV/$metadata"/>
+<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="http://HDHANAAPP2.WOONGJIN.NET:50000/sap/opu/odata/SAP/ZFLOW_ODATA_SRV/$metadata"/>
+</Schema>
+</edmx:DataServices>
+</edmx:Edmx>

@@ -1,0 +1,478 @@
+{
+  "definitions": {
+    "test": {
+      "kind": "service"
+    },
+    "test.InputSet": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "userId": {
+          "type": "cds.String",
+          "length": 50
+        },
+        "rgsnDttm": {
+          "type": "cds.String",
+          "length": 50
+        },
+        "roomSrno": {
+          "type": "cds.String",
+          "length": 50
+        },
+        "roomChatSrno": {
+          "type": "cds.String",
+          "length": 50
+        },
+        "mobileYn": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "context": {
+          "type": "cds.String",
+          "length": 50
+        },
+        "text": {
+          "type": "cds.String",
+          "length": 50
+        },
+        "messageCode": {
+          "type": "cds.String",
+          "length": 50
+        }
+      }
+    },
+    "test.ZIFCV7000_DDL": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "kunnr": {
+          "key": true,
+          "type": "cds.String",
+          "length": 10
+        },
+        "name1": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "pernr": {
+          "type": "cds.String",
+          "length": 8
+        }
+      }
+    },
+    "test.ZIFCV7001_DDL": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "partner": {
+          "key": true,
+          "type": "cds.String",
+          "length": 10
+        },
+        "name_org1": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "city": {
+          "type": "cds.String",
+          "length": 140
+        },
+        "aufsd": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "aufsd_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "lifsd": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "lifsd_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "faksd": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "faksd_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "konda": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "konda_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "lprio": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "lprio_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "vwerk": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "vsbed": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "vsbed_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "inco1": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "zterm": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "zterm_t": {
+          "type": "cds.String",
+          "length": 30
+        }
+      }
+    },
+    "test.ZIFCV7002_DDL": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "vbeln": {
+          "key": true,
+          "type": "cds.String",
+          "length": 10
+        },
+        "auart": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "auart_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "kunnr": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "kunnr_t": {
+          "type": "cds.String",
+          "length": 35
+        },
+        "audat": {
+          "type": "cds.Date"
+        },
+        "erdat": {
+          "type": "cds.Date"
+        },
+        "vkorg": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "vkorg_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "vtweg": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "vtweg_t": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "pernr": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "pernr_t": {
+          "type": "cds.String",
+          "length": 80
+        },
+        "netwr": {
+          "type": "cds.Decimal",
+          "precision": 16,
+          "scale": 3
+        },
+        "waerk": {
+          "type": "cds.String",
+          "length": 5
+        },
+        "spart": {
+          "type": "cds.String",
+          "length": 2
+        }
+      }
+    },
+    "test.ZIFCV7010_DDL": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "vbeln": {
+          "key": true,
+          "type": "cds.String",
+          "length": 10
+        },
+        "pernr": {
+          "type": "cds.String",
+          "length": 8
+        }
+      }
+    },
+    "test.ZIFCV7011_DDL": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "vbeln": {
+          "key": true,
+          "type": "cds.String",
+          "length": 10
+        },
+        "posnr": {
+          "type": "cds.String",
+          "length": 6
+        },
+        "auart": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "bezei": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "lifsk": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "abgru": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "kunnr": {
+          "type": "cds.String",
+          "length": 10
+        },
+        "name1": {
+          "type": "cds.String",
+          "length": 35
+        },
+        "audat": {
+          "type": "cds.Date"
+        },
+        "erdat": {
+          "type": "cds.Date"
+        },
+        "vtweg": {
+          "type": "cds.String",
+          "length": 2
+        },
+        "vtext": {
+          "type": "cds.String",
+          "length": 20
+        },
+        "pernr": {
+          "type": "cds.String",
+          "length": 8
+        },
+        "name_org1": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "matnr": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "maktx": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "vrkme": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "waerk": {
+          "type": "cds.String",
+          "length": 5
+        },
+        "netpr": {
+          "type": "cds.Decimal",
+          "precision": 12,
+          "scale": 3
+        },
+        "kwmeng": {
+          "type": "cds.Decimal",
+          "precision": 15,
+          "scale": 3
+        },
+        "netwr": {
+          "type": "cds.Decimal",
+          "precision": 16,
+          "scale": 3
+        },
+        "count1": {
+          "type": "cds.Decimal",
+          "precision": 15,
+          "scale": 3
+        },
+        "amount1": {
+          "type": "cds.Decimal",
+          "precision": 26,
+          "scale": 5
+        },
+        "count2": {
+          "type": "cds.Integer"
+        },
+        "amount2": {
+          "type": "cds.Integer"
+        },
+        "count3": {
+          "type": "cds.Integer"
+        },
+        "amount3": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        }
+      }
+    },
+    "test.ZIFCV7020_DDL": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "matnr": {
+          "key": true,
+          "type": "cds.String",
+          "length": 40
+        },
+        "matnr_t": {
+          "type": "cds.String",
+          "length": 40
+        }
+      }
+    },
+    "test.ZIFCV7021_DDL": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "matnr": {
+          "key": true,
+          "type": "cds.String",
+          "length": 40
+        },
+        "werks": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "werks_t": {
+          "type": "cds.String",
+          "length": 30
+        },
+        "lgort": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "lgort_t": {
+          "type": "cds.String",
+          "length": 16
+        },
+        "matnr_t": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "meins": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "labst": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "labst_char": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "vmeng": {
+          "type": "cds.Decimal",
+          "precision": 15,
+          "scale": 3
+        },
+        "vmeng_char": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "a_labst": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "a_labst_char": {
+          "type": "cds.String",
+          "length": 40
+        }
+      }
+    },
+    "test.ZIFCV7022_DDL": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "matnr": {
+          "key": true,
+          "type": "cds.String",
+          "length": 40
+        },
+        "maktx": {
+          "type": "cds.String",
+          "length": 40
+        },
+        "vpsta": {
+          "type": "cds.String",
+          "length": 15
+        },
+        "pstat": {
+          "type": "cds.String",
+          "length": 15
+        },
+        "mtart": {
+          "type": "cds.String",
+          "length": 4
+        },
+        "mbrsh": {
+          "type": "cds.String",
+          "length": 1
+        },
+        "matkl": {
+          "type": "cds.String",
+          "length": 9
+        },
+        "meins": {
+          "type": "cds.String",
+          "length": 3
+        },
+        "brgew": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "ntgew": {
+          "type": "cds.Decimal",
+          "precision": 13,
+          "scale": 3
+        },
+        "gewei": {
+          "type": "cds.String",
+          "length": 3
+        }
+      }
+    }
+  }
+}
