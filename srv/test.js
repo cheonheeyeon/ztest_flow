@@ -9,10 +9,12 @@ const request = require('request')
 //here are the service handlers
 module.exports = cds.service.impl(async function() {
 
-    let mcode, uid, rno, cno = '';
+    let mcode, uid, rno, cno = '';              // 변수 초기화. let, var 로 변수 선언 및 초기화 가능
     
-    this.on(['READ', 'CREATE', 'UDDATE', 'DELETE'], '', async(req) => {
-                
+    // 두번째 파라미터는 엔티티명이 들어가지만, 여기서는 엔티티 구분이 무의미해서 비워둠. CRUD 모든 경우에 대해 아래의 로직을 탐
+    this.on(['READ', 'CREATE', 'UDDATE', 'DELETE'], '', async(req) => { 
+        
+        // 받아온 Body 데이터로 변수 설정
         uid = req.data.userId;
         rno = req.data.roomSrno ;
         cno = req.data.roomChatSrno;
@@ -20,9 +22,8 @@ module.exports = cds.service.impl(async function() {
 
         let json = [];
 
-        // 기다려주세요 메세지 먼저 보내기
         switch(mcode.substring(0,1)){
-            case('1'||'2'||'3'):
+            case('1'||'2'||'3'):  // 기다려주세요 메세지 먼저 보내기(메세지코드 앞자리가 1,2,3인경우)
                 funcs.send_wait(req, rno, cno, uid);
             case('1'):            // 거래처관리
                 json = await cust.customer_info(mcode);

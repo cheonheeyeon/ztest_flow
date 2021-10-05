@@ -55,9 +55,9 @@ exports.customer_info0 = async function(mcode){
     if(mcode.length<=2){            // 퀵리플라이 보내기
         const srv = await cds.connect.to('test');
         const tx = srv.transaction();
-        let entity = 'ZIFCV7000_DDL'
+        let entity = 'ZIFCV7000_DDL'        // odata 엔티티
     
-        let query = await tx.run(
+        let query = await tx.run(           // 던지는 쿼리
             SELECT.from(entity)
             .where({pernr:'00000001'})
             .limit(3)
